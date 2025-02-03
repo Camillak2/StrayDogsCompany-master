@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec0233cd087c4e10824dc09c3c63dea9" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Stray_DogsModel.Aplication" Width="1.5" PointX="7.5" PointY="4.5" />
+        <EntityTypeShape EntityType="Stray_DogsModel.ApplicationStatus" Width="1.5" PointX="5.25" PointY="0.75" />
+        <EntityTypeShape EntityType="Stray_DogsModel.Appointments" Width="1.5" PointX="10.5" PointY="4.125" />
+        <EntityTypeShape EntityType="Stray_DogsModel.Aviary" Width="1.5" PointX="3" PointY="4.625" />
+        <EntityTypeShape EntityType="Stray_DogsModel.Dog" Width="1.5" PointX="5.25" PointY="3.5" />
+        <EntityTypeShape EntityType="Stray_DogsModel.Employee" Width="1.5" PointX="8.25" PointY="9" />
+        <EntityTypeShape EntityType="Stray_DogsModel.Gender" Width="1.5" PointX="3" PointY="1.75" />
+        <EntityTypeShape EntityType="Stray_DogsModel.Post" Width="1.5" PointX="6" PointY="9.875" />
+        <EntityTypeShape EntityType="Stray_DogsModel.StatusAppointment" Width="1.5" PointX="8.25" PointY="1.75" />
+        <EntityTypeShape EntityType="Stray_DogsModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.25" />
+        <EntityTypeShape EntityType="Stray_DogsModel.TypeAviary" Width="1.5" PointX="0.75" PointY="4.75" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Aplication_ApplicationStatus" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Aplication_Dog" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Appointments_Dog" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Appointments_Employee" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Appointments_StatusAppointment" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Aviary_TypeAviary" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Dog_Aviary" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Dog_Gender" />
+        <AssociationConnector Association="Stray_DogsModel.FK_Employee_Post" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
