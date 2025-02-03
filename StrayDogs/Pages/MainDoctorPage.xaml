@@ -85,12 +85,15 @@
                     </StackPanel>
                 </Canvas>
             </Viewbox>
+            
 
             <Viewbox Grid.Column="1" Grid.ColumnSpan="3" Margin="30,4,0,156" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Center">
                 <Canvas Width="600" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <TextBlock Text="Приемы" Foreground="#16343C" FontSize="24" Opacity="0.9"/>
                 </Canvas>
             </Viewbox>
+            
+            
 
             <Viewbox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="25,0,0,60" VerticalAlignment="Top">
                 <Canvas Width="600" Height="20" HorizontalAlignment="Center"
