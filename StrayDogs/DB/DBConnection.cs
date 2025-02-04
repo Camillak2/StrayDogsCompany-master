@@ -8,6 +8,7 @@ namespace StrayDogs.DB
 {
     internal class DBConnection
     {
+        //
         public static Stray_DogsEntities stray_Dogs = new Stray_DogsEntities();
 
         public static Employee logginedEmployee;
